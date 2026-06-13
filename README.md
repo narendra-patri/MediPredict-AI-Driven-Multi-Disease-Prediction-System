@@ -49,7 +49,6 @@ SmartMed/
 │   └── liver_model.pkl
 ├── app/
 │   └── app.py
-├── train_all_models.py
 ├── requirements.txt
 └── README.md
 ```
@@ -67,9 +66,8 @@ pip install -r requirements.txt
 Place all 5 CSV files into the `datasets/` folder (see links above).
 
 ### 3. Train all models
-```bash
-python train_all_models.py
-```
+Run all the .ipynb files in notebook folder
+
 This saves all 5 `.pkl` model files into `models/`.
 
 ### 4. Run the Streamlit app
